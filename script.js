@@ -9,8 +9,10 @@ for (let i = 10; i >= 1; i--) {
 }
 
 for (let i = 0; i <= 30; i++) {
+  console.log(`The number is ${i}`);
   if (i % 2 === 0) {
     // The module of a even number is always 0
-    console.log(`emparedado`);
+
+    console.log(`emparedado, the number is ${i}`);
   }
 }
